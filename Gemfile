@@ -6,6 +6,9 @@ gem 'rails', '4.0.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+# Adding forms 
+gem 'simple_form'
+
 # Adding pagination
 gem 'will_paginate', '~> 3.0.6'
 gem 'will_paginate-bootstrap'
