@@ -6,6 +6,9 @@ gem 'rails', '4.0.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 4.0.0'
+
 # Adding forms 
 gem 'simple_form'
 
@@ -14,8 +17,9 @@ gem 'will_paginate', '~> 3.0.6'
 gem 'will_paginate-bootstrap'
 
 # Use SCSS for stylesheets
-gem 'bootstrap-sass', '~> 3.3.4'
-gem 'sass-rails', '~> 4.0.0'
+gem 'bootstrap-sass', '3.3.5.1'
+gem 'sprockets'
+
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
