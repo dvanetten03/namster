@@ -39,6 +39,12 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
+# A complete geocoding solution for Ruby
+gem 'geocoder'
+
+# Make it easy to securely configure Rails applicatons
+gem "figaro", ">= 1.0.0"
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
