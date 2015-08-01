@@ -81,3 +81,11 @@
 		</blockquote>
 	</div>
 <% end %>
+
+<div class="clear">
+<%= simple_form_for @photo , :url => '#' do |f| %>
+	<%= f.input :photo %>
+	<%= f.input :caption %>
+	<%= f.submit "Add a Photo", :class => 'btn btn-primary' %>
+<% end %>
+</div>

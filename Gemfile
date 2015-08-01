@@ -45,6 +45,9 @@ gem 'geocoder'
 # Make it easy to securely configure Rails applicatons
 gem "figaro", ">= 1.0.0"
 
+# Provide a simple and flexible way to upload files from Ruby applications.
+gem 'carrierwave'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
