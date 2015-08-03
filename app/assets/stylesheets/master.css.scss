@@ -67,3 +67,13 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+
+.place_photo {
+  border-radius: 5px;
+  max-height: 200px;
+}
+
+.place_photo_sm {
+  border-radius: 5px;
+  width: 150px;
+}

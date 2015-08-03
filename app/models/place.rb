@@ -8,5 +8,5 @@ class Place < ActiveRecord::Base
 
 	validates :name, length: { minimum: 3}, :presence => true
 	validates :address, :presence => true
-	validates :description, :presence => true
+	validates :description, :presence => true, :length => { :maximum => 250 }
 end

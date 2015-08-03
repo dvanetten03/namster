@@ -23,6 +23,7 @@ gem 'will_paginate-bootstrap'
 gem 'bootstrap-sass', '3.3.5.1'
 gem 'sprockets'
 
+gem 'fog'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
