@@ -8,7 +8,7 @@ Namster::Application.configure do
     :domain       => ENV['namster-diane-van-etten.herokuapp.com'],
     :authentication => :plain,
   }
-  ActionMailer::Base.delivery_method = smtp
+  ActionMailer::Base.delivery_method = :smtp
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
