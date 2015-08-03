@@ -1,6 +1,8 @@
 Namster::Application.configure do
 
-  ActionMailer::Base.smtp_settings = {
+  ActionMailer::Base.smtp_settings = 
+    config.action_mailer.default_url_options = { :host => namster-diane-van-etten.herokuapp.com }
+  {
     :port         => ENV['MAILGUN_SMTP_PORT'],
     :address      => ENV['MAILGUN_SMTP_SERVER'],
     :user_name    => ENV['MAILGUN_SMTP_LOGIN'],
